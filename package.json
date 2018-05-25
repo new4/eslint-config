@@ -1,5 +1,5 @@
 {
-  "name": "@new4/eslint-config",
+  "name": "new4-eslint-config",
   "version": "0.0.1",
   "description": "new4's eslint config",
   "main": "index.js",
