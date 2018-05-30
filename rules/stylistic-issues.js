@@ -377,7 +377,7 @@ module.exports = {
         // 强制在 function的左括号之前使用一致的空格
         'space-before-function-paren': ['error', {
             anonymous: 'always',
-            named: 'always',
+            named: 'never',
             asyncArrow: 'always',
         }],
 
