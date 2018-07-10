@@ -100,7 +100,7 @@ module.exports = {
         'implicit-arrow-linebreak': ['error', 'beside'],
 
         // 强制使用一致的缩进
-        'indent': ['error', 4, { // 4个空格缩进
+        'indent': ['error', 2, { // 2个空格缩进
             SwitchCase: 1,
             VariableDeclarator: 1,
             outerIIFEBody: 1,
