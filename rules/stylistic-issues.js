@@ -261,7 +261,7 @@ module.exports = {
     'no-new-object': 'error',
 
     // 禁用一元操作符 ++ 和 --
-    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+    'no-plusplus': ['off'],
 
     // 禁用特定的语法
     'no-restricted-syntax': [
