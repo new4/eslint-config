@@ -150,20 +150,7 @@ module.exports = {
     'no-octal-escape': 'error',
 
     // 禁止对 function 的参数进行重新赋值
-    'no-param-reassign': ['error', {
-      props: true,
-      ignorePropertyModificationsFor: [
-        'acc', // for reduce accumulators
-        'accumulator', // for reduce accumulators
-        'e', // for e.returnvalue
-        'ctx', // for Koa routing
-        'req', // for Express requests
-        'request', // for Express requests
-        'res', // for Express responses
-        'response', // for Express responses
-        '$scope', // for Angular 1 scopes
-      ],
-    }],
+    'no-param-reassign': 'off',
 
     // 禁用 __proto__ 属性
     'no-proto': 'error',
