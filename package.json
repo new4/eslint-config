@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-new4-eslintrc",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "new4's eslint config",
   "main": "index.js",
   "dependencies": {},
