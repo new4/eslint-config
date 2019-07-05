@@ -3,8 +3,14 @@
   "version": "0.4.4",
   "description": "new4's eslint config",
   "main": "index.js",
+  "scripts": {
+    "check": "node scripts/check.js"
+  },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/new4/eslint-config.git"
